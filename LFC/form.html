@@ -1,0 +1,356 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Page Title</title>
+
+<style>
+
+	.icon{
+		position:fixed;
+		color :darkred;
+		font-size:35px;
+		top:20px;
+		left:20px;
+		transition:color 0.2s;
+ 		}
+	.icon:hover {
+		color:pink;
+		}
+
+
+	body{
+		background : linear-gradient(to left, orange 0%, white 100%);
+		background : linear-gradient(to right, white 0%, orange 100%);	
+		}
+
+	#heading{
+		color:blue;
+		text-align:center;
+		position:relative;
+		top:20px;
+		
+		}
+	.haha{
+		text-align:center;
+		padding-top:50px;
+		}
+	.hihi{
+		margin-left:400px;
+		height:50px;
+		width:100px;
+		margin-top:50px;
+		margin-bottom:100px;
+		}
+	.huhu{
+		margin-left:450px;
+		height:50px;
+		width:100px;
+		margin-top:50px;
+		margin-bottom:100px;
+		}
+
+
+		*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}    
+footer{
+    background-color:	#383838;
+}
+.footerContainer{
+    width: 100%;
+    padding: 70px 30px 20px ;
+}
+.socialIconsx{
+  
+    display: flex;
+    justify-content: center;
+}
+.socialIconsx a{
+    text-decoration: none;
+    padding:  10px;
+    background-color: white;
+    margin: 10px;
+    border-radius: 50%;
+}
+.socialIconsx a i{
+    font-size: 2em;
+    color: 	#383838;
+    opacity: 0.9;
+}
+
+.socialIconsx a:hover{
+    background-color: black;
+    transition: 0.5s;
+}
+.socialIconsx a:hover i{
+    color: white;
+    transition: 0.5s;
+}
+.footerNav{
+    margin: 30px 0;
+	background-color:#383838;
+	
+}
+.footerNav ul{
+    display: flex;
+    background-color:#383838;
+
+    justify-content: center;
+    list-style-type: none;
+}
+.footerNav ul li a{
+    color:white;
+    margin: 20px;
+    text-decoration: none;
+    font-size: 1.3em;
+    opacity: 0.7;
+    transition: 0.5s;
+
+}
+.footerNav ul li a:hover{
+    opacity: 1;
+}
+.footerBottom{
+    background-color:	#383838;
+    padding: 20px;
+    text-align: center;
+}
+.footerBottom p{
+    color: white;
+}
+.designer{
+    opacity: 0.7;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-weight: 400;
+    margin: 0px 5px;
+}
+    .footerNav ul li{
+        width:100%;
+        text-align: center;
+        margin: 10px;
+    }
+    .socialIconsx a{
+        padding: 8px;
+        margin: 4px;
+    }
+}
+
+
+
+
+
+
+</style>
+
+
+</head>
+<body>
+ 
+<a class="icon" href="C:\Users\ASUS\Desktop\LFC\home.html">
+  <ion-icon name="home-outline"></ion-icon>
+  </a>
+   
+<h1 id="heading"><u>REGISTRATION FORM</u></h1>
+<form>
+<fieldset>
+
+<div >
+	<div class="haha">
+		<br>Enter Your Name:</br>
+		<input type="text" name="username" placeholder="" requiredS></input>
+	</div>
+	<div class="haha">
+		<br>Enter Gender:</br>
+		<input type="radio" id="male" name="gender" value="male">
+		<label for="male">Male</label>
+		<input type="radio" id="female" name="gender" value="female">
+		<label for="female">Female</label>
+		<input type="radio" id="Third Gender" name="gender" value="Third Gender">
+		<label for="Third Gender">Third Gender</label>
+	</div>
+	
+	<div class="haha">
+		<br>Physical Ability:</br>
+		<input type="radio" id="Abled" name="physical ability" value="Abled">
+		<label for="Abled">Abled</label>
+		<input type="radio" id="Differently Abled" name="physical ability" value="Differently Abled">
+		<label for="Differently Abled">Differently Abled</label>
+	</div>
+	
+	<div class="haha">
+		<br>Date Of Birth:</br>
+		<input type="text" name="Date Of Birth" placeholder="" required></input>
+	</div>
+
+	<div class="haha">
+		<br>Standard & Division - Class:</br>
+		<input type="text" name="Standard & Division - Class" placeholder="" required></input>
+	</div>
+
+	<div class="haha">
+		<br>Residential Address:</br>
+		<input type="text" name="Residential Address:" placeholder="" reuqired></input>
+	</div>
+
+	<div class="haha">
+		<br>District Name:</br>
+		<input type="text" name="district name" placeholder="" required> </input>
+	</div>
+
+
+	<div class="haha">
+		<br>Contact Number:</br>
+		<input type="text" name="contact number" placeholder="" required></input>
+	</div>
+
+	<div class="haha">
+		<br>Email Address:</br>
+		<input type="text" name="Email Address" placeholder=""required></input>
+ 	</div>
+
+	<div class="haha">
+		<br>Father Name:</br>
+		<input type="text" name="Father name" placeholder="" required></input>
+	</div>
+
+	
+	<div class="haha">
+		<br>Parental Status:</br>
+		<input type="radio" id="Both Parent Child" name="Parental Status" value="Both Parent Child">
+		<label for="Both Parent Child">Both Parent Child</label>
+		
+		<input type="radio" id="Single Parent Child" name="Parental Status" value="Single Parent Child">
+		<label for="Single Parent Child">Single Parent Child</label>
+
+		<input type="radio" id="Orphan" name="Parental Status" value="Orphan">
+		<label for="Orphan">Orphan</label>
+	</div>
+
+	<div class="haha">
+		<br>Father Occupation:</br>
+		<input type="radio" id="Government Job" name="Father Occupation" value="Government Job">
+		<label for="Government Job">Government Job</label>
+
+		<input type="radio" id="Private Job" name="Father Occupation" value="Private Job">
+		<label for="Private job">Private Job</label>
+
+		<input type="radio" id="Business" name="Father Occupation" value="Business">
+		<label for="Buisiness">Business</label>
+
+		<input type="radio" id="Other" name="Father Occupation" value="Other">
+		<label for="Other">Other</label>
+		
+	</div>
+	
+	<div class="haha">
+		<br>Mother Occupation:</br>
+		<input type="radio" id="Government Job2" name="Mother Occupation" value="Government Job">
+		<label for="Government Job">Government Job</label>
+
+		<input type="radio" id="Private Job2" name="Mother Occupation" value="Private Job">
+		<label for="Private job">Private Job</label>
+
+		<input type="radio" id="Business2" name="Mother Occupation" value="Business">
+		<label for="Buisiness">Business</label>
+
+		<input type="radio" id="Housewife" name="Mother Occupation" value="Housewife">
+		<label for="Housewife">Housewife</label>
+
+		<input type="radio" id="Other2" name="Mother Occupation" value="Other">
+		<label for="Other">Other</label>
+	</div>
+
+	<div class="haha">
+		<br>Parent's Contact Number:</br>
+		<input type="text" name="Parent's Contact Number" placeholder=""required></input>
+	</div>
+
+	<div class="haha">
+		<br>Parent's Contact Number:</br>
+		<input type="text" name="Parent's Contact Number" placeholder=""required></input>
+	</div>
+
+
+	<div class="haha">
+		<br>School Name:</br>
+		<input type="text" name="School name" placeholder="" required></input>
+	</div>
+
+	<div class="haha">
+		<br>School Category (Govt. or pvt.):</br>
+		<input type="text" name="School Category (Govt. or pvt.)" placeholder="" required></input>
+	</div>
+
+	<div class="haha">
+		<br>Schoool Nature (Girls, Boys, coed):</br>
+		<input type="text" name="Schoool Nature (Girls, Boys, coed)" placeholder="" required></input>
+	</div>
+
+
+	<div class="haha">
+		<br>Language:</br>
+		<input type="text" name="Language" placeholder="" required></input>
+	</div>
+
+	<div class="haha">
+		<br>School Board Affiliation:</br>
+		<input type="text" name="School Board Affiliation" placeholder="" required></input>
+	</div>
+
+
+
+	<div class="haha">
+		<br>Playing History of football:</br>
+		<input type="text" name="Playing History of football" placeholder="" required></input>
+	</div>
+
+	<div>
+	<input class="hihi" type="RESET">
+	<input class="huhu" type="SUBMIT">
+</div>
+
+</fieldset>
+</form>
+<footer>
+    <div class="footerContainer">
+        <div class="socialIconsx">
+            <a class="fa-brands fa-google-plus" href="https://www.facebook.com/" target="_blank">
+	<ion-icon name="logo-facebook"></ion-icon>
+	</a>
+
+            <a class="fa-brands fa-instagram" href="https://www.instagram.com/" target="_blank">
+	<ion-icon name="logo-instagram"></ion-icon>
+	</a>
+
+            <a class="fa-brands fa-youtube" href="https://www.youtube.com/" target="_blank">
+	<ion-icon name="logo-youtube"></ion-icon>
+	</a>
+
+        </div>
+        <div class="footerNav">
+            <ul><li><a href="C:\Users\ASUS\Desktop\LFC\home.html">Home</a></li>
+             <li><a href="">News</a></li>
+                <li><a href="C:\Users\ASUS\Desktop\LFC\about us.html">About</a></li>
+                <li><a href="">Contact Us</a></li>
+              <li><a href="">our Team</a></li>
+            </ul>
+        </div>
+        
+    </div>
+    <div class="footerBottom">
+        <p>Copyright &copy;2025; Designed by <span class="designer">Akshat Mishra</span></p>
+    </div>
+</footer>
+
+
+
+<script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+
+
+</div>
+</body>
+</html>
